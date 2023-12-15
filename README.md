@@ -3,6 +3,11 @@
 A modern application embedded with the ChatGPT API that is built for real-time data scraping, cleaning, integration, and analysis.
 
 
+## Related
+https://www.runoob.com/json/json-tutorial.html
+https://www.runoob.com/python/python-dictionary.html
+https://www.runoob.com/python/python-strings.html
+
 ## Income Statement Prompt Example
 
 "You are the expert of Finance and Accounting, please tell me about several numbers precisly.Please tell me the financial numbers in this year: Revenue；Cost of Goods Sold；Selling, general and administrative Expense；R&D Expense； Operating Income； Interest Income； Interest Expense； Earnings Before Tax；Net Income (Use the currency from report and format with table ), please generate output vertical in JSON format"
