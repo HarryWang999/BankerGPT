@@ -5,7 +5,9 @@ A modern application embedded with the ChatGPT API that is built for real-time d
 
 ## Related
 https://www.runoob.com/json/json-tutorial.html
+
 https://www.runoob.com/python/python-dictionary.html
+
 https://www.runoob.com/python/python-strings.html
 
 ## Income Statement Prompt Example
