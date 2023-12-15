@@ -673,5 +673,5 @@ the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
 
-Some parts of the crawler and extraction were derived from Lefteris Loukas, ref
+  Some parts of the crawler and extraction were derived from Lefteris Loukas, ref
  <https://github.com/nlpaueb/edgar-crawler>
