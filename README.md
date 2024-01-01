@@ -12,6 +12,24 @@ A modern application embedded with the ChatGPT API that is built for real-time d
 - Install dependencies on Terminal via `pip install -r requirements.txt` or on macOS run `pip3 install -r requirements.txt`
 - Before starting, it's recommended to create a new virtual environment using Python 3.8. We recommend [installing](https://docs.anaconda.com/anaconda/install/index.html) and [using Anaconda](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands) for this.
 
+## Configuration
+- in the `config.json` file, you can config all the parameters
+  - `start_year XXXX`: the year range to start from (default is 2021).
+  - `end_year YYYY`: the year range to end to (default is 2021).
+  - `quarters`: the quarters that you want to download filings from (List).<br> Default value is: `[1, 2, 3, 4]`
+  - `cik_tickers`: list or path of file containing CIKs or Tickers. e.g. `[789019, "1018724", "AAPL", "TWTR"]`
+  - `user_agent`: the User-agent (name/email) that will be declared to SEC EDGAR.
+  - `items_to_extract`: a list with the certain item sections to extract. <br>
+      e.g. `['8']` to extract 'Financial Statements' section items.<be>
+
+## SEC Crawler
+- in the Terminal, you can run `python3 1.sec_crawler.py` to execute the crawler in the configuration. 
+
+## Data Extractor
+- in the Terminal, you can run `python3 2.data_extractor.py` to execute the data cleaner and data extractor. 
+
+## BankerGPT
+- in the Terminal, you can run `python3 3.run_bankergpt.py` to execute the BankerGPT function
 
 
 ## Income Statement Prompt Example
