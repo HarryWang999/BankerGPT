@@ -3,7 +3,7 @@
 A modern application embedded with the ChatGPT API that is built for real-time data scraping, cleaning, integration, and analysis.
 
 ## Open Terminal
-- on macOS, go to the `Applications` folder --> `Utilities' folder --> open `Terminal`
+- on macOS, go to the `Applications` folder --> `Utilities` folder --> open `Terminal`
 - on Linux, open `Terminal`
 
 ## Install
