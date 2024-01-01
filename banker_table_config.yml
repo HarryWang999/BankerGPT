@@ -1,0 +1,50 @@
+schemaVersion: '2.0'
+
+
+Years: {'2018':'C', 
+  '2019':'D',
+  '2020':'E',
+  '2021':'F',
+  '2022':'G'
+}
+
+IncomeStatement: {
+  'Revenue': '2',
+  'CostOfGoodsSold': '3',
+  'SellingGeneralAdministrative': '4',
+  'RDExpense': '5',
+  'OperatingIncome': '6',
+  'InterestIncome': '7',
+  'InterestExpense': '8',
+  'EarningsBeforeTax': '9',
+  'NetIncome': '10'
+}
+
+
+BalanceSheet: {
+  'CurrentAssets': {
+    'CashAndCashEquivalents': '15',
+    'AccountsReceivable': '16',
+    'Inventory': '17',
+    'PrepaidExpense': '18'
+  },
+  'NonCurrentAssets': {
+    'PropertyAndEquipment': '22',
+    'Goodwill': '23',
+    'IntangibleAssets': '24',
+    'TotalNonCurrentAssets': '25'
+  },
+  'CurrentLiabilities': {
+    'ShortTermBorrowings': '30',
+    'AccountsPayable': '31',
+    'AccruedExpenses': '32',
+    'TotalCurrentLiability': '33'
+  }, 
+  'NonCurrentLiabilities': {
+    'TotalNonCurrentLiability': '36'.
+    'TotalLiabilities': '38'
+  },
+  'Equity': {
+    'TotalEquity': '41'
+  }
+}
