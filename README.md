@@ -8,12 +8,12 @@ A modern application embedded with the ChatGPT API that is built for real-time d
 
 ## Install
 - You can git clone or directly download the whole file as a .zip file, and unzip it. 
-- Open Terminal, go to the folder where you download these files, default in `/Users/USERNAME/`, and you might want to run `cd Downloads/BankerGPT/`, and run the following commends
+- Open Terminal, go to the folder where you download these files, default in `/Users/USERNAME/`, and you might want to run `cd Downloads/BankerGPT/`, and run the following commands
 - Install dependencies on Terminal via `pip install -r requirements.txt` or on macOS run `pip3 install -r requirements.txt`
 - Before starting, it's recommended to create a new virtual environment using Python 3.8. We recommend [installing](https://docs.anaconda.com/anaconda/install/index.html) and [using Anaconda](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands) for this.
 
 ## Configuration
-- in the `config.json` file, you can config all the parameters
+- in the `config.json` file, you can config all the parameters for crawling and extractor
   - `start_year XXXX`: the year range to start from (default is 2021).
   - `end_year YYYY`: the year range to end to (default is 2021).
   - `quarters`: the quarters that you want to download filings from (List).<br> Default value is: `[1, 2, 3, 4]`
@@ -29,8 +29,13 @@ A modern application embedded with the ChatGPT API that is built for real-time d
 - in the Terminal, you can run `python3 2.data_extractor.py` to execute the data cleaner and data extractor. 
 
 ## BankerGPT
-- Add you OpenAI key in the file `gpt_key.txt` and replace with everything
+- Add your OpenAI key in the file `gpt_key.txt` and replace it with everything
 - in the Terminal, you can run `python3 3.run_bankergpt.py` to execute the BankerGPT function
+
+## Misc
+- `banker_table_config.yml`: config the position of your output table, which connected to other tables
+- `gpt_key.txt`: Add your OpenAI key in the file `gpt_key.txt` and replace it with everything
+- `config.json`: in the `config.json` file, you can config all the parameters for crawling and extractor
 
 
 ## Income Statement Prompt 1 Examples
