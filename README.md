@@ -3,12 +3,12 @@
 A modern application embedded with the ChatGPT API that is built for real-time data scraping, cleaning, integration, and analysis.
 
 
-## Related
-https://www.runoob.com/json/json-tutorial.html
+## Install
+- Before starting, it's recommended to create a new virtual environment using Python 3.8. We recommend [installing](https://docs.anaconda.com/anaconda/install/index.html) and [using Anaconda](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands) for this.
+- Install dependencies via `pip install -r requirements.txt` or on macOS run `pip3 install -r requirements.txt`
 
-https://www.runoob.com/python/python-dictionary.html
 
-https://www.runoob.com/python/python-strings.html
+
 
 ## Income Statement Prompt Example
 
