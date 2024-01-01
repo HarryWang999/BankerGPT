@@ -29,6 +29,7 @@ A modern application embedded with the ChatGPT API that is built for real-time d
 - in the Terminal, you can run `python3 2.data_extractor.py` to execute the data cleaner and data extractor. 
 
 ## BankerGPT
+- Add you OpenAI key in the file `gpt_key.txt` and replace with everything
 - in the Terminal, you can run `python3 3.run_bankergpt.py` to execute the BankerGPT function
 
 
