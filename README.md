@@ -2,11 +2,15 @@
 
 A modern application embedded with the ChatGPT API that is built for real-time data scraping, cleaning, integration, and analysis.
 
+## Open Terminal
+- on macOS, go to the `Applications` folder --> `Utilities' folder --> open `Terminal`
+- on Linux, open `Terminal`
 
 ## Install
+- You can git clone or directly download the whole file as a .zip file, and unzip it. 
+- Open Terminal, go to the folder where you download these files, default in `/Users/USERNAME/`, and you might want to run `cd Downloads/BankerGPT/`, and run the following commends
+- Install dependencies on Terminal via `pip install -r requirements.txt` or on macOS run `pip3 install -r requirements.txt`
 - Before starting, it's recommended to create a new virtual environment using Python 3.8. We recommend [installing](https://docs.anaconda.com/anaconda/install/index.html) and [using Anaconda](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands) for this.
-- Install dependencies via `pip install -r requirements.txt` or on macOS run `pip3 install -r requirements.txt`
-
 
 
 
