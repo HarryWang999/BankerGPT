@@ -22,13 +22,16 @@ A modern application embedded with the ChatGPT API that is built for real-time d
   - `items_to_extract`: a list with the certain item sections to extract. <br>
       e.g. `['8']` to extract 'Financial Statements' section items.<be>
 
-## SEC Crawler
+## Step 0 Test
+- In the terminal, you can run `python3 0.charcutter.py` to test if you can run python code, and also check whether you have installed the required libraries. 
+
+## Step 1 SEC Crawler
 - in the Terminal, you can run `python3 1.sec_crawler.py` to execute the crawler in the configuration. 
 
-## Data Extractor
+## Step 2 Data Extractor
 - in the Terminal, you can run `python3 2.data_extractor.py` to execute the data cleaner and data extractor. 
 
-## BankerGPT
+## Step 3 BankerGPT
 - Add your OpenAI key in the file `gpt_key.txt` and replace it with everything
 - in the Terminal, you can run `python3 3.run_bankergpt.py` to execute the BankerGPT function
 
