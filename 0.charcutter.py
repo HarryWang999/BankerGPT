@@ -1,4 +1,9 @@
 import json
+import openai 
+import nltk
+import openpyxl
+from bs4 import BeautifulSoup
+# up for checking libraries 
 
 # load from files
 inputfilename = "datasets/EXTRACTED_FILINGS/320193_10K_2013_0001193125-13-416534.json"
