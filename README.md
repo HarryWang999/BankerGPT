@@ -23,7 +23,7 @@ A modern application embedded with the ChatGPT API that is built for real-time d
       e.g. `['8']` to extract 'Financial Statements' section items.<be>
 
 ## Step 0 Test
-- In the terminal, you can run `python3 0.charcutter.py` to test if you can run python code, and also check whether you have installed the required libraries. 
+- In the terminal, you can run `python3 0.test.py` to test if you can run python code, and also check whether you have installed the required libraries. 
 
 ## Step 1 SEC Crawler
 - in the Terminal, you can run `python3 1.sec_crawler.py` to execute the crawler in the configuration. 
